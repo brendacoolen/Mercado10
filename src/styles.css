@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Magical";
+  src: url("fuente/Magical.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+.TituloPrincipal {
+  font-family: Magical;
+  text-align: center;
+  font-size: 60px;
+}
+@font-face {
+  font-family: "Sinami";
+  src: url("fuente/Sinami.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+h2 {
+  font-family: Sinami;
+  font-size: 50px;
+  color: blueviolet;
+  text-align: left;
+}
+
+p {
+  font-family: cursive;
+  font-size: 20px;
+  color: black;
+}
+
+body {
+  background-image: url(src/imagenes/fondo5.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+img {
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+
+footer {
+  color: midnightblue;
+  font-size: 15px;
+}
